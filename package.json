@@ -1,0 +1,22 @@
+{
+  "name": "acasadacozinha.com.br",
+  "version": "1.0.0",
+  "description": "Website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:prod": "node_modules/.bin/vite build --base=//www.acasadacozinha.com.br/",
+    "build:dev": "node_modules/.bin/vite build",
+    "build": "npm run build:prod",
+    "preview": "node_modules/.bin/vite preview",
+    "deploy": "sh deploy-www.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "svelte": "^4.2.8",
+    "vite": "^5.0.10"
+  }
+}
